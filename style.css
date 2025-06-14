@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.threeboxs{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #first-box{
+     background-color: hsl(31, 77%, 52%);
+     border-top-left-radius:10px ;
+     width: 250px;
+     border-bottom-left-radius: 10px;
+     color: azure;
+     display: flex;
+     justify-content: center;
+     align-items: start;
+     flex-direction: column;
+     gap: 30px;
+     padding-left: 30px;
+     font-family: sans-serif;
+     button{
+        background-color:hsl(31, 77%, 52%) ;
+     }
+
+    }
+    #second-box{
+        width: 250px;
+        background-color: hsl(184, 100%, 22%);
+        color: azure;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        gap: 30px;
+        padding-left: 30px;
+        button{
+          background-color: hsl(184, 100%, 22%);
+        }
+    }
+    #three-box{
+        width: 250px;
+        background-color: hsl(179, 100%, 13%);
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        color: azure;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        gap: 30px;
+        padding-left: 30px;
+        button{
+        
+            background-color:hsl(179, 100%, 13%) ;
+        }
+
+    }
+}
+.threeboxs > div{
+    
+   width: 200px;
+   height: 400px;
+   background-color: blue;
+}
+button{
+    width: 100px;
+    height: 30px;
+    text-align:center;
+    cursor: pointer;
+    border-radius: 20px;
+    color: azure;
+    font-family: sans-serif;
+    border: none;
+    
+}
+button:hover{
+    border: 1px solid azure;
+}
